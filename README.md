@@ -1,8 +1,11 @@
+
 # The Cyber Times
 
 A newspaper-style crime report that turns a presentation topic into an interactive web page: **a CEO impersonation scam carried out through a fake Facebook profile and mobile banking (MFS) transfers in Bangladesh.**
 
-**Live site:** _add your Render link here_
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Open%20the%20Site-BA0000?style=for-the-badge&logo=render&logoColor=white)](https://cyber-times-onrender-com.onrender.com/)
+
+**Live site:** https://cyber-times-onrender-com.onrender.com/
 **Status:** Educational case study
 
 ---
@@ -82,9 +85,4 @@ The look was developed iteratively and the prompts can be reused in Figma, Dribb
 
 ## Credits
 
-- Illustrations: _add the source and licence for the three images used in the hero, "Harvesting" and "Following the Money" sections._
-- Built with HTML, CSS and a little JavaScript, designed and iterated with Claude.
-
-## Licence
-
-_Choose a licence (for example MIT) before publishing._
+- Illustrations: _add the source and licence for the three images used in the hero, "Har
