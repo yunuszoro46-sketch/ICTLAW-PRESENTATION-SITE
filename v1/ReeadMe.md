@@ -2,8 +2,8 @@
 
 A newspaper-style crime report that turns a presentation topic into an interactive web page: **a CEO impersonation scam carried out through a fake Facebook profile and mobile banking (MFS) transfers in Bangladesh.**
 
-**Live site:** _add your Render link here_
-**Status:** Educational case study
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Site-111111?style=for-the-badge&logo=render&logoColor=white&labelColor=ba0000)](https://ictlaw-presentation-site.onrender.com/)
+[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)](https://ictlaw-presentation-site.onrender.com/)
 
 ---
 
