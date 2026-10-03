@@ -3,10 +3,8 @@
 
 A newspaper-style crime report that turns a presentation topic into an interactive web page: **a CEO impersonation scam carried out through a fake Facebook profile and mobile banking (MFS) transfers in Bangladesh.**
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Open%20the%20Site-BA0000?style=for-the-badge&logo=render&logoColor=white)](https://cyber-times-onrender-com.onrender.com/)
-
-**Live site:** https://cyber-times-onrender-com.onrender.com/
-**Status:** Educational case study
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Site-111111?style=for-the-badge&logo=render&logoColor=white&labelColor=ba0000)](https://ictlaw-presentation-site.onrender.com/)
+[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)](https://ictlaw-presentation-site.onrender.com/)
 
 ---
 
@@ -16,15 +14,16 @@ Fahim downloads public LinkedIn photos and details belonging to CEO Farhan Ahmed
 
 ## What is on the page
 
-- **Masthead and utility bar:** blackletter title, weather, issue number, edition, and a section nav with an active state.
-- **Hero:** a split layout with a red kicker, headline, deck, byline and pull quote, beside a collage illustration with an "Evidential Exhibit" stamp.
-- **Story:** a two-column justified article with a drop cap, then a "Harvesting what was already public" feature.
-- **Following the Money:** an illustrated MFS audit trail from the three transfers to the NID-linked wallet and its freeze.
-- **The Charges:** seven charge boxes, each with the act, section, offence and description, plus a Summary of Charges table.
-- **The Punishment:** a boxed list in italic type.
-- **Sidebar:** a Case File card, a timeline numbered 01 to 06, an "Also in Business" story, and a Corporate Advisory card.
-- **Corporate Advisory:** six safeguards with `CRITICAL`, `MANDATORY`, `URGENT` and `HIGH` priority badges, a short explanation under each, tick boxes and a live progress counter.
-- **Controls:** a floating dark/light toggle and a Mobile/Desktop view simulator (390px preview).
+- **Header:** sticky bar with the blackletter title, section links, a dark/light toggle and a scroll-progress line.
+- **Article opening:** centered kicker, headline, italic deck and byline, then a full-width black hero band with the lead illustration.
+- **The short version:** four plain-language cards (what happened, the motive, how he was caught, how to stop it) under the case strip.
+- **Why it works:** four pressure levers (authority, urgency, fear, secrecy) with a counter for each, plus real FBI IC3 statistics.
+- **Case file strip:** suspect, victim, loss and status in four boxes.
+- **Story:** single reading column with a drop cap, a pull quote, illustrations with captions, and three animated SVG scenes (cloned profile, scam chat, money trail).
+- **Following the Money and timeline:** simple vertical step lists.
+- **The Charges:** seven tap-to-expand rows. **The Punishment:** a boxed list.
+- **Corporate Advisory:** six safeguards with priority badges, tick cards and a live progress bar.
+- **Hover zoom:** every image and animation grows slightly under the mouse (`.zoom` wrapper).
 
 ## Legal references used
 
@@ -42,17 +41,10 @@ Fahim downloads public LinkedIn photos and details belonging to CEO Farhan Ahmed
 
 ## Design
 
-- **Concept:** a modern broadsheet crime report with a collage feel: red slab accents, halftone illustration, a faint paper grain, hairline rules and double rules.
-- **Palette:** newsprint `#F4F1EA`, ink `#111111`, slate `#444444`, crimson `#BA0000`. The dark theme uses `#15120E`, `#EFE9DA` and `#FF4A4A`.
-- **Typography:**
-  - UnifrakturMaguntia: masthead
-  - Playfair Display (900): headlines
-  - Source Serif 4: body text
-  - Cormorant Garamond (italic): decks, quotes and punishments
-  - JetBrains Mono: labels, legal codes and IDs
-- **Layout:** CSS grid with container queries, so the mobile preview toggle and real phones use the same layout rules.
-- **Accessibility:** visible keyboard focus, real buttons and checkboxes, light and dark themes, and reduced-motion support.
-- **Components:** `.c-kicker`, `.c-case-row`, `.c-charge-badge` and the figure and advisory cards.
+- **Concept:** a New Yorker-inspired editorial layout: white space, a 700px reading column, large serif type and hairline rules.
+- **Palette:** white, ink `#1a1a1a`, grey `#6b6b6b`, crimson `#c8102e`. Dark theme uses `#121212` and `#ff5a6e`.
+- **Typography:** UnifrakturMaguntia (title), Playfair Display (headlines), Source Serif 4 (body), Libre Caslon Text italic (decks and quotes), Inter (labels).
+- **Accessibility:** visible keyboard focus, real buttons, checkboxes and `<details>` rows, light and dark themes, reduced-motion support.
 
 ## Project structure
 
@@ -85,4 +77,14 @@ The look was developed iteratively and the prompts can be reused in Figma, Dribb
 
 ## Credits
 
-- Illustrations: _add the source and licence for the three images used in the hero, "Har
+- Illustrations: _add the artist, source and licence for each of the seven embedded images before publishing._
+- Built with HTML, CSS and a little JavaScript, designed and iterated with Claude.
+
+## Licence
+
+_Choose a licence (for example MIT) before publishing._
+
+
+## Facts and sources
+
+The story is an illustrative case study. Statistics come from the FBI IC3 2025 Internet Crime Report. Bangladesh cyber law changed in 2025 and 2026 (2023 Act repealed by the 2025 Ordinance, then the 2026 Act), so re-check legal references before publishing. Sources are listed at the bottom of the page.
